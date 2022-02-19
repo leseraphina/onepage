@@ -1,1 +1,47 @@
 @charset "utf-8";
+div#wrap{}
+div#wrap>header{
+  background-color:#81d8d0;
+  position:relative;
+}
+header>div{
+  width:1365px;
+  padding:26px 0;
+  position:relative;
+  margin:0 auto;
+  background-color:yellow;
+}
+header>div>h1{
+  text-align:center;
+}
+header>div>ul{
+position:absolute;
+right:14px; top:14px;
+}
+header>div>ul>li{
+  display:inline-block;
+  padding:0 13px;
+}
+header>div>ul>li:last-child{
+  border-left:1px solid #fff;
+}
+header>div>ul>li>a{
+  color:#fff;
+  font-size:16px;
+}
+header>p#btn{
+  position:absolute;
+  right:35px;
+  top:50%; right:40px;
+  width:40px; height:40px;
+  background:red;
+  margin-top:-20px;
+}
+nav{
+  position:relative;
+  padding:12px 0;
+  background-color:#ffd0e0;
+}
+nav>ul{
+  
+}
