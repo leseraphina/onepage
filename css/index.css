@@ -217,4 +217,31 @@ color:#666;
   padding-bottom:26px;
 }
 /* box05 */
-#box05{}
+#box05{
+  height:660px;
+
+  box-sizing:border-box;
+  background:linear-gradient(#f4f4f4 10% ,#919191 90% );
+}
+#box05>div{
+  width:1365px;
+  padding:156px 0 166px 50%;
+  margin: 0 auto;
+  font-family:Times,sans-serif;
+  color:#666666;
+  background:url('../images/sec04_pic.png') no-repeat left -100px;
+  box-sizing:border-box;
+}
+#box05>div>h3{
+  font-size:60px;
+  margin-bottom:33px;
+  font-weight:bold;
+}
+#box05>div>p{
+  font-weight:lighter;
+  font-size:33px;
+  margin-bottom:95px;
+}
+#box05 form{
+  
+}
