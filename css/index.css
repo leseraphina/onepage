@@ -180,3 +180,41 @@ text-align:center;
 color:#666;
 }
 /* box04 */
+#box04{}
+#box04>h3{
+  height:440px;
+  background:linear-gradient(45deg,#f4e6ee 10%,#c8c0db 80%)
+}
+#box04>h3>span{
+  display:flex;
+  justify-content: center;
+  align-items: center; 
+  width:1365px;
+  height:100%;
+  background:url('../images/gifts_gifts2_bg1.png') no-repeat left top,
+  url('../images/gifts_gifts2_bg2.png') no-repeat right bottom;
+  margin: 0 auto;
+  font:bold 100px Times,serif;
+  text-shadow:2px 2px 5px rgba(0,0,0,0.7);
+  color:#fff;
+}
+#box04>div{
+  width:930px;
+  margin: 0 auto;
+  padding:40px 0;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+#box04>div>figure{
+width:220px;
+padding:0px 0 8px;
+background-color:#f2f2f2;
+text-align:center;
+color:#666;
+}
+#box04>div>figure>img{
+  padding-bottom:26px;
+}
+/* box05 */
+#box05{}
