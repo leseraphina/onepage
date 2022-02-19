@@ -1,20 +1,206 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tiyffany &amp; paism</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tiyffany &amp; paism</title>
 </head>
 <body>
 <div id="wrap">
-    <!-- header -->
-    <header>
-        <div></div>
-    </header>
-    <nav>
-        <div></div>
+<!-- header -->
+<header>
+    <div>
+        <h1>
+            <a href="">
+                <img src="./images/logo.png" alt="tiffany & Prisim"></a></h1>
+        <ul>
+                    <li><a href="#">sign up</a></li>
+                    <li><a href="#">sign in</a></li>
+        </ul>
+        <p id="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </p>
+    </div>
+</header>
+<!-- nav -->
+  <nav>
+      <div>
+          <h2 class="hid">메인내비게이션</h2>
+           <ul>
+               <li><a href="#">COLLECTIONS</a>
+                <ul>
+                    <li><a href="#">submenu01</a></li>
+                    <li><a href="#">submenu01</a></li>
+                    <li><a href="#">submenu01</a></li>
+                </ul>
+            </li>
+               <li><a href="#">Gifts</a>
+                <ul>
+                    <li><a href="#">submenu02</a></li>
+                    <li><a href="#">submenu02</a></li>
+                    <li><a href="#">submenu02</a></li>
+                </ul>
+            </li>
+               <li><a href="#">Brilliant Light</a>
+                <ul>
+                    <li><a href="#">submenu03</a></li>
+                    <li><a href="#">submenu03</a></li>
+                    <li><a href="#">submenu03</a></li>
+                </ul>
+            </li>
+               <li><a href="#">The WORLD OF PRISM</a>
+                <ul>
+                    <li><a href="#">submenu04</a></li>
+                    <li><a href="#">submenu04</a></li>
+                    <li><a href="#">submenu04</a></li>
+                </ul></li>
+           </ul>
+      </div>
     </nav>
+    <!-- box01 -->
+    <article id="box01">
+        <h3 class="hide">주요이벤트</h3>
+        <!-- 주요설명 -->
+        <p class="title">
+            <span>title</span>            
+            <span>text</span>
+        </p>
+        <!-- gallery -->
+        <ul>
+            <li><span>event01</span></li>
+            <li><span>event02</span></li>
+            <li><span>event03</span></li>
+            <li><span>event04</span></li>
+        </ul>
+        <!-- button -->
+        <p id="prev"><img src="./images/prev.png" alt="앞으로"></p>
+        <p id="next"><img src="./images/prev.png" alt="뒤로"></p>
+        <!-- circle -->
+        <p class="circle">
+            <a href="#">01</a>
+            <a href="#">02</a>
+            <a href="#">03</a>
+            <a href="#">04</a></p>
+    </article>
+<!-- box02 -->
+    <article id="box02">
+        <div>
+            <h3>WAVE BRACELET</h3>
+            <p>Sparkling rows of sapphires, aquamarines and diamonds dynamically twist and ripple around this dazzling platinum design. Custom-cut sapphires, carat total weight 95.44; custom-cut aquamarines, carat total weight 65.16; round brilliant diamonds. <br>
+            sapphires aquamarines and diamonds dynamically twist and ripple around this dazzling platinum design. Custom-cut sapphires, carat total weight 95.44; custom-cut aquamarines, carat total weight 65.16; round brilliant diamonds.
+            </p>
+        </div>
+    </article>
+<!-- box03 -->
+    <article id="box03">
+        <h3>
+            <span>Whatever Shining <b>style</b></span> </h3>
+            <div>
+                <figure>
+                    <img src="./images/box01_01.png" alt="상품1">
+                    <figcaption>상품1</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/box01-02.png" alt="상품2">
+                    <figcaption>상품2</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/box01-03.png" alt="상품3">
+                    <figcaption>상품3</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/box01-04.png" alt="상품4">
+                    <figcaption>상품4</figcaption>
+                </figure>
+            </div>
+       
+    </article>
+<!-- box04 -->
+    <article id="box04">
+        <h3><span>Capture her world</span></h3>
+        <div>
+            <figure>
+                <img src="./images/box02_01.png" alt="상품1">
+                <figcaption>상품1</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/box02-02.png" alt="상품2">
+                <figcaption>상품2</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/box02-03.png" alt="상품3">
+                <figcaption>상품3</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/box02-04.png" alt="상품4">
+                <figcaption>상품4</figcaption>
+            </figure>
+        </div>
+    </article>
+<!-- box05 -->
+    <article id="box05">
+        <div>
+            <h3>Event</h3>
+            <p>I paint the world.</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>이벤트 등록</legend>
+                    <ul>
+                        <li>
+                            <label for="userName">Name</label>
+                            <input type="text" id="userName" placeholder="이름을 입력하세요.">
+                        </li>
+                        <li>
+                            <label for="userEmial">Email</label>
+                            <input type="email" id="userEmail" placeholder="필수입니다.">
+                        </li>
+                        <li>
+                            <input type="submit" value="이벤트등록">
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+        </div>
+    </article>
+<!-- footer -->
+    <footer>
+        <!-- 정보 -->
+        <ul>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">영상정보처리기기운영・관리 방침</a></li>
+            <li><a href="#">입점문의</a></li>
+        </ul>
+        <dl>
+            <dt>사업자등록번호</dt>
+            <dd>201-81-32195</dd>
+            <dt>대표이사</dt>
+            <dd>차정호</dd>
+            <dt>주소</dt>
+            <dd>서울특별시 중구 소공로63, (충무로 1가) </dd>
+            <dt>대표 전화번호</dt>
+            <dd><a href="tel:1601-5932">1601-5932</a></dd>
+            <dt>대표 이메일주소</dt>
+            <dd><a href="matito:chicor_com@shinsegae.com">chicor_com@shinsegae.com</a></dd>
+            <dt>통신판매업신고번호</dt>
+            <dd>1996-서울중구-0211</dd>
+            <dt>개인정보보호 책임자</dt>
+            <dd>이아무개 담당</dd>
+        </dl>
+        <!-- sns -->
+        <ul>
+            <li><a href="#"><img src="./images/icon-01.png" alt="트위터"></a></li>
+            <li><a href="#"><img src="./images/icon-02.png" alt="페이스북"></a></li>
+            <li><a href="#"><img src="./images/icon-03.png" alt="구글+"></a></li>
+            <li><a href="#"><img src="./images/icon-04.png" alt="인스타그램"></a></li>
+        </ul>
+        <small>&copy; 2022 SHINSEGAE ALL RIGHTS RESERVED</small>
+    </footer>
 </div>
 </body>
 </html>
