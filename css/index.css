@@ -329,3 +329,38 @@ footer>ul:nth-child(3)>li{
   display:inline-block;
   margin: 0 8px;
 }
+aside>a{
+  width:64px;
+  text-align:center;
+  font-size:18px;
+  line-height:54px;
+  color:#fff;
+  display:block;
+  border:1px solid #fff;
+position:fixed;
+right:75px;
+bottom:75px;
+}
+aside>a:hover{
+  background-color:#666;
+  color:orange;
+}
+
+aside>ul{
+  position:fixed;
+  right:30px;
+  top:50%;
+  margin-top:-100px;
+  background-color:red;
+}
+aside>ul>li{
+  margin-bottom:20px;
+}
+aside>ul>li>a{
+  display:block;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  text-indent:-99999px;
+  background-color:#fff;
+}
